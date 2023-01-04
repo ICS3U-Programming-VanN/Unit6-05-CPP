@@ -74,7 +74,7 @@ int main() {
             std::cout << "\nList of Marks: ";
 
             // Iterates through the list of marks to display all the marks
-            for (int mark : userMarks) {
+            for (float mark : userMarks) {
                 std::cout << mark << " ";
             }
 
